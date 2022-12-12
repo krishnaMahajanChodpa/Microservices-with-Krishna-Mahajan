@@ -1,0 +1,11 @@
+server:
+  port: 9002
+  
+spring:
+  application:
+    name: BANK-TRANSACTION
+    
+eureka:
+  client:
+    service-url:
+      defaultZone: ${DISCOVERY_URL:http://localhost:9001}/eureka/

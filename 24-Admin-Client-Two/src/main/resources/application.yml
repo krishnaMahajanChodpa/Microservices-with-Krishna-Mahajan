@@ -1,0 +1,21 @@
+server:
+  port: 2222
+  
+spring:
+  application:
+    name: ADMIN-CLIENT-2
+  boot:
+    admin:
+      client:
+        url:
+        - http://localhost:9090/    
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
+        
+          
+          
+          

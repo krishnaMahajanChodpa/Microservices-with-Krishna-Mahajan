@@ -1,0 +1,11 @@
+server:
+  port: 9003
+  
+spring:
+  application:
+    name: BANK-BALANCE 
+   
+eureka:
+  client:
+    service-url:
+      defaultZone: ${DISCOVERY_URL:http://localhost:9001}/eureka/

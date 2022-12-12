@@ -1,0 +1,25 @@
+server:
+  port: 1111
+  
+spring:
+  application:
+    name: ADMIN-CLIENT-1
+  boot:
+    admin:
+      client:
+        url:
+        - http://localhost:9090/    
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
+     
+     
+     
+        
+          
+          
+          
